@@ -7,11 +7,13 @@ import { Texts } from './Components/Texts';
 import { About } from './Components/About';
 import { Navbar } from './Components/Navbar';
 import Header from './Components/Header';
+import { ApolloProvider } from '@apollo/client';
+import { client } from "./ApolloClient/client";
 
 
 function App() {
   return (
-    <>
+    <ApolloProvider client={client}>
       <Header/>
       <Navbar/>
       <Box style={{backgroundColor: "rgba(26, 107, 194, 0.486)", padding: 50 }}>
@@ -21,7 +23,7 @@ function App() {
           <Route path="/texts" element={<Texts />} />
         </Routes>
       </Box>
-    </>
+    </ApolloProvider>
   );
 }
 

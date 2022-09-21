@@ -5,6 +5,12 @@ import App from './App.tsx'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
+import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: 'https://flyby-gateway.herokuapp.com/',
+  cache: new InMemoryCache(),
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

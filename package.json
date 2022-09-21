@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://victorbaptistado.github.io/victorfug",
   "dependencies": {
+    "@apollo/client": "^3.6.9",
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^13.2.1",
     "eslint": "^8.23.0",
     "framer-motion": "^7.3.0",
+    "graphql": "^16.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
