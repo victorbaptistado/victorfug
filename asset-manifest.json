@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/victorfug/static/css/main.e26d82b5.css",
+    "main.js": "/victorfug/static/js/main.a407a2a6.js",
+    "static/js/787.7b83fde4.chunk.js": "/victorfug/static/js/787.7b83fde4.chunk.js",
+    "static/media/victorFugagnoliHead.jpg": "/victorfug/static/media/victorFugagnoliHead.00c164bdaefbaf0a6351.jpg",
+    "index.html": "/victorfug/index.html",
+    "main.e26d82b5.css.map": "/victorfug/static/css/main.e26d82b5.css.map",
+    "main.a407a2a6.js.map": "/victorfug/static/js/main.a407a2a6.js.map",
+    "787.7b83fde4.chunk.js.map": "/victorfug/static/js/787.7b83fde4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e26d82b5.css",
+    "static/js/main.a407a2a6.js"
+  ]
+}
