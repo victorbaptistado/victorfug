@@ -1,6 +1,6 @@
 import { Box, Heading, Image } from '@chakra-ui/react'
 import React from 'react'
-import image from "../Images/victorFugagnoliHead.jpg";
+import image from "../../Images/victorFugagnoliHead.jpg";
 
 export const About = () => {
   return (

@@ -2,11 +2,11 @@ import { Box, HStack, Text, VStack } from '@chakra-ui/react';
 import React from 'react';
 import { Link, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
-import { HomePage } from './Components/HomePage';
-import { Texts } from './Components/Texts';
-import { About } from './Components/About';
-import { Navbar } from './Components/Navbar';
-import Header from './Components/Header';
+import { HomePage } from './Components/HomePage/HomePage';
+import { Texts } from './Components/Text/Texts';
+import { About } from './Components/About/About';
+import { Navbar } from './Components/Menu/Navbar';
+import Header from './Components/Menu/Header';
 import { ApolloProvider } from '@apollo/client';
 import { client } from "./ApolloClient/client";
 
